@@ -54,7 +54,7 @@ class rbenv {
   ]:
     ensure    => directory,
     owner     => 'root',
-    group     => 'admin',
+    group     => 'root',
     mode      => '0775',
   }
 
